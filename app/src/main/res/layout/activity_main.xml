@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dodge.hero.z.svgademo.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击添加一个SVGA动画"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="以下移除SVAGImageView的延迟时间"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/et_delay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="延迟"
+        android:text="500"/>
+
+
+</LinearLayout>
